@@ -1,0 +1,558 @@
+{
+  "unstaffedRequests": [
+    {
+      "id": 1,
+      "client": "Buildcorp",
+      "contactPerson": "Sarah Mitchell",
+      "phone": "(555) 123-4567",
+      "jobSite": "Parramatta Construction Site",
+      "type": "Labour",
+      "dateType": "fixed",
+      "dates": [
+        "2024-12-12",
+        "2024-12-13",
+        "2024-12-14",
+        "2024-12-15",
+        "2024-12-16",
+        "2024-12-17",
+        "2024-12-18",
+        "2024-12-19",
+        "2024-12-20",
+        "2024-12-21",
+        "2024-12-22",
+        "2024-12-23",
+        "2024-12-24"
+      ],
+      "roles": "3 General Labourers, 1 Forklift Driver",
+      "description": "Construction site requires general labourers and forklift operator for material handling and site preparation.",
+      "supervisor": "John Smith",
+      "status": "unstaffed",
+      "skillRequirements": [
+        {
+          "skill": "General Labourer",
+          "quantity": 3,
+          "dates": [
+            "2024-12-12",
+            "2024-12-13",
+            "2024-12-14",
+            "2024-12-15",
+            "2024-12-16",
+            "2024-12-17",
+            "2024-12-18",
+            "2024-12-19",
+            "2024-12-20",
+            "2024-12-21",
+            "2024-12-22",
+            "2024-12-23",
+            "2024-12-24"
+          ],
+          "staffedPerDate": {
+            "2024-12-12": 0,
+            "2024-12-13": 0,
+            "2024-12-14": 0,
+            "2024-12-15": 0,
+            "2024-12-16": 0,
+            "2024-12-17": 0,
+            "2024-12-18": 0,
+            "2024-12-19": 0,
+            "2024-12-20": 0,
+            "2024-12-21": 0,
+            "2024-12-22": 0,
+            "2024-12-23": 0,
+            "2024-12-24": 0
+          },
+          "shiftTimes": {
+            "2024-12-12": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-13": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-14": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-15": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-16": { "startTime": "6:00 AM", "endTime": "2:00 PM" },
+            "2024-12-17": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-18": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-19": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-20": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-21": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-22": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-23": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-24": { "startTime": "6:00 AM", "endTime": "12:00 PM" }
+          }
+        },
+        {
+          "skill": "Forklift Driver",
+          "quantity": 1,
+          "dates": [
+            "2024-12-12",
+            "2024-12-13",
+            "2024-12-14",
+            "2024-12-15",
+            "2024-12-16",
+            "2024-12-17",
+            "2024-12-18",
+            "2024-12-19",
+            "2024-12-20",
+            "2024-12-21",
+            "2024-12-22",
+            "2024-12-23",
+            "2024-12-24"
+          ],
+          "staffedPerDate": {
+            "2024-12-12": 0,
+            "2024-12-13": 0,
+            "2024-12-14": 0,
+            "2024-12-15": 0,
+            "2024-12-16": 0,
+            "2024-12-17": 0,
+            "2024-12-18": 0,
+            "2024-12-19": 0,
+            "2024-12-20": 0,
+            "2024-12-21": 0,
+            "2024-12-22": 0,
+            "2024-12-23": 0,
+            "2024-12-24": 0
+          },
+          "shiftTimes": {
+            "2024-12-12": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-13": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-14": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-15": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-16": { "startTime": "7:00 AM", "endTime": "3:00 PM" },
+            "2024-12-17": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-18": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-19": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-20": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-21": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-22": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-23": { "startTime": "8:00 AM", "endTime": "5:00 PM" },
+            "2024-12-24": { "startTime": "7:00 AM", "endTime": "1:00 PM" }
+          }
+        }
+      ],
+      "shifts": [
+        { "date": "2024-12-12", "staffed": 0, "required": 4 },
+        { "date": "2024-12-13", "staffed": 0, "required": 4 },
+        { "date": "2024-12-14", "staffed": 0, "required": 4 },
+        { "date": "2024-12-15", "staffed": 0, "required": 4 },
+        { "date": "2024-12-16", "staffed": 0, "required": 4 },
+        { "date": "2024-12-17", "staffed": 0, "required": 4 },
+        { "date": "2024-12-18", "staffed": 0, "required": 4 },
+        { "date": "2024-12-19", "staffed": 0, "required": 4 },
+        { "date": "2024-12-20", "staffed": 0, "required": 4 },
+        { "date": "2024-12-21", "staffed": 0, "required": 4 },
+        { "date": "2024-12-22", "staffed": 0, "required": 4 },
+        { "date": "2024-12-23", "staffed": 0, "required": 4 },
+        { "date": "2024-12-24", "staffed": 0, "required": 4 }
+      ]
+    },
+    {
+      "id": 2,
+      "client": "Metro Logistics",
+      "contactPerson": "David Chen",
+      "phone": "(555) 234-5678",
+      "jobSite": "Port Botany Warehouse",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-11"],
+      "roles": "1 Container Crew (20ft, 150 boxes)",
+      "description": "Single 20ft container unloading at Port Botany warehouse facility.",
+      "status": "unstaffed",
+      "containers": [
+        { 
+          "date": "2024-12-11", 
+          "containerNumber": "MSCU7654321",
+          "size": "20ft",
+          "boxes": 150,
+          "skus": 45,
+          "endCustomer": "Retail Co",
+          "staffed": 0,
+          "required": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "client": "Greenfield Developments",
+      "contactPerson": "Emma Thompson",
+      "phone": "(555) 345-6789",
+      "jobSite": "Ryde Office Complex",
+      "type": "Labour",
+      "dateType": "ongoing",
+      "startDate": "2024-12-09",
+      "workDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "roles": "2 Skilled Labourers",
+      "description": "Ongoing construction work requiring skilled labourers for office complex development.",
+      "supervisor": "Mike Johnson",
+      "status": "unstaffed",
+      "skillRequirements": [
+        {
+          "skill": "Skilled Labourer",
+          "quantity": 2,
+          "weekdaySchedule": [
+            { "day": "Monday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Tuesday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Wednesday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Thursday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Friday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 }
+          ]
+        }
+      ],
+      "shifts": [
+        { "date": "2024-12-11", "day": "Wednesday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-12", "day": "Thursday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-13", "day": "Friday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-16", "day": "Monday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-17", "day": "Tuesday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-18", "day": "Wednesday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-19", "day": "Thursday", "staffed": 0, "required": 2 },
+        { "date": "2024-12-20", "day": "Friday", "staffed": 0, "required": 2 }
+      ]
+    },
+    {
+      "id": 4,
+      "client": "Swift Transport",
+      "contactPerson": "Michael Wong",
+      "phone": "(555) 456-7890",
+      "jobSite": "Alexandria Distribution Center",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-13"],
+      "roles": "2 Container Crews (40ft, 200 boxes each)",
+      "description": "Two 40ft containers requiring unloading at Alexandria facility.",
+      "status": "unstaffed",
+      "containers": [
+        { 
+          "date": "2024-12-13", 
+          "containerNumber": "TCLU4567890",
+          "size": "40ft",
+          "boxes": 200,
+          "skus": 78,
+          "endCustomer": "Wholesale Ltd",
+          "staffed": 0,
+          "required": 3
+        },
+        { 
+          "date": "2024-12-13", 
+          "containerNumber": "TCLU4567891",
+          "size": "40ft",
+          "boxes": 200,
+          "skus": 65,
+          "endCustomer": "Wholesale Ltd",
+          "staffed": 0,
+          "required": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "client": "Pacific Construction",
+      "contactPerson": "Jennifer Lee",
+      "phone": "(555) 567-8901",
+      "jobSite": "Bondi Beach Residential Project",
+      "type": "Labour",
+      "dateType": "fixed",
+      "dates": ["2024-12-18", "2024-12-19", "2024-12-20"],
+      "roles": "5 General Labourers, 2 Skilled Labourers",
+      "description": "Residential construction project at Bondi Beach requiring both general and skilled labour for framing and finishing work.",
+      "supervisor": "Tony Russo",
+      "status": "unstaffed",
+      "skillRequirements": [
+        {
+          "skill": "General Labourer",
+          "quantity": 5,
+          "dates": ["2024-12-18", "2024-12-19", "2024-12-20"],
+          "staffedPerDate": { "2024-12-18": 0, "2024-12-19": 0, "2024-12-20": 0 },
+          "shiftTimes": {
+            "2024-12-18": { "startTime": "6:30 AM", "endTime": "3:30 PM" },
+            "2024-12-19": { "startTime": "6:30 AM", "endTime": "3:30 PM" },
+            "2024-12-20": { "startTime": "6:30 AM", "endTime": "1:00 PM" }
+          }
+        },
+        {
+          "skill": "Skilled Labourer",
+          "quantity": 2,
+          "dates": ["2024-12-18", "2024-12-19", "2024-12-20"],
+          "staffedPerDate": { "2024-12-18": 0, "2024-12-19": 0, "2024-12-20": 0 },
+          "shiftTimes": {
+            "2024-12-18": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-19": { "startTime": "7:00 AM", "endTime": "4:00 PM" },
+            "2024-12-20": { "startTime": "7:00 AM", "endTime": "1:30 PM" }
+          }
+        }
+      ],
+      "shifts": [
+        { "date": "2024-12-18", "staffed": 0, "required": 7 },
+        { "date": "2024-12-19", "staffed": 0, "required": 7 },
+        { "date": "2024-12-20", "staffed": 0, "required": 7 }
+      ]
+    },
+    {
+      "id": 6,
+      "client": "Harbour Imports",
+      "contactPerson": "Mark Anderson",
+      "phone": "(555) 678-9012",
+      "jobSite": "Sydney Harbour Dock 5",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-14", "2024-12-15"],
+      "roles": "4 Container Crews (multiple containers)",
+      "description": "Multiple container unloading over two days at Harbour facility.",
+      "status": "unstaffed",
+      "containers": [
+        { 
+          "date": "2024-12-14", 
+          "containerNumber": "HLCU2345678",
+          "size": "40ft",
+          "boxes": 180,
+          "skus": 52,
+          "endCustomer": "Department Stores Inc",
+          "staffed": 0,
+          "required": 3
+        },
+        { 
+          "date": "2024-12-14", 
+          "containerNumber": "HLCU2345679",
+          "size": "20ft",
+          "boxes": 120,
+          "skus": 38,
+          "endCustomer": "Department Stores Inc",
+          "staffed": 0,
+          "required": 3
+        },
+        { 
+          "date": "2024-12-15", 
+          "containerNumber": "HLCU2345680",
+          "size": "40ft",
+          "boxes": 220,
+          "skus": 89,
+          "endCustomer": "Electronics Hub",
+          "staffed": 0,
+          "required": 4
+        },
+        { 
+          "date": "2024-12-15", 
+          "containerNumber": "HLCU2345681",
+          "size": "40ft",
+          "boxes": 195,
+          "skus": 71,
+          "endCustomer": "Electronics Hub",
+          "staffed": 0,
+          "required": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "client": "Urban Developments",
+      "contactPerson": "Lisa Chen",
+      "phone": "(555) 789-0123",
+      "jobSite": "Chatswood High-Rise",
+      "type": "Labour",
+      "dateType": "ongoing",
+      "startDate": "2024-12-16",
+      "workDays": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "roles": "3 Skilled Labourers, 1 Forklift Driver",
+      "description": "High-rise construction project requiring skilled workers and forklift operation four days per week.",
+      "supervisor": "Robert Kim",
+      "status": "unstaffed",
+      "skillRequirements": [
+        {
+          "skill": "Skilled Labourer",
+          "quantity": 3,
+          "weekdaySchedule": [
+            { "day": "Monday", "startTime": "6:00 AM", "endTime": "3:00 PM", "staffed": 0 },
+            { "day": "Tuesday", "startTime": "6:00 AM", "endTime": "3:00 PM", "staffed": 0 },
+            { "day": "Wednesday", "startTime": "6:00 AM", "endTime": "3:00 PM", "staffed": 0 },
+            { "day": "Thursday", "startTime": "6:00 AM", "endTime": "3:00 PM", "staffed": 0 }
+          ]
+        },
+        {
+          "skill": "Forklift Driver",
+          "quantity": 1,
+          "weekdaySchedule": [
+            { "day": "Monday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Tuesday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Wednesday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 },
+            { "day": "Thursday", "startTime": "7:00 AM", "endTime": "4:00 PM", "staffed": 0 }
+          ]
+        }
+      ],
+      "shifts": [
+        { "date": "2024-12-16", "day": "Monday", "staffed": 0, "required": 4 },
+        { "date": "2024-12-17", "day": "Tuesday", "staffed": 0, "required": 4 },
+        { "date": "2024-12-18", "day": "Wednesday", "staffed": 0, "required": 4 },
+        { "date": "2024-12-19", "day": "Thursday", "staffed": 0, "required": 4 },
+        { "date": "2024-12-23", "day": "Monday", "staffed": 0, "required": 4 },
+        { "date": "2024-12-24", "day": "Tuesday", "staffed": 0, "required": 4 }
+      ]
+    },
+    {
+      "id": 8,
+      "client": "Global Freight Solutions",
+      "contactPerson": "Ahmad Rahman",
+      "phone": "(555) 890-1234",
+      "jobSite": "Mascot Cargo Terminal",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-17"],
+      "roles": "1 Container Crew (20ft, 95 boxes)",
+      "description": "Small container unloading at Mascot terminal for express delivery items.",
+      "status": "unstaffed",
+      "containers": [
+        { 
+          "date": "2024-12-17", 
+          "containerNumber": "GFCU8901234",
+          "size": "20ft",
+          "boxes": 95,
+          "skus": 28,
+          "endCustomer": "Express Delivery Co",
+          "staffed": 0,
+          "required": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "client": "Coastline Builders",
+      "contactPerson": "Rebecca White",
+      "phone": "(555) 901-2345",
+      "jobSite": "Manly Wharf Renovation",
+      "type": "Labour",
+      "dateType": "fixed",
+      "dates": ["2024-12-20", "2024-12-21", "2024-12-22", "2024-12-23"],
+      "roles": "4 General Labourers, 3 Skilled Labourers",
+      "description": "Wharf renovation project requiring demolition and reconstruction work along the waterfront.",
+      "supervisor": "Patrick O'Brien",
+      "status": "unstaffed",
+      "skillRequirements": [
+        {
+          "skill": "General Labourer",
+          "quantity": 4,
+          "dates": ["2024-12-20", "2024-12-21", "2024-12-22", "2024-12-23"],
+          "staffedPerDate": { "2024-12-20": 0, "2024-12-21": 0, "2024-12-22": 0, "2024-12-23": 0 },
+          "shiftTimes": {
+            "2024-12-20": { "startTime": "5:30 AM", "endTime": "2:30 PM" },
+            "2024-12-21": { "startTime": "5:30 AM", "endTime": "2:30 PM" },
+            "2024-12-22": { "startTime": "5:30 AM", "endTime": "2:30 PM" },
+            "2024-12-23": { "startTime": "5:30 AM", "endTime": "12:00 PM" }
+          }
+        },
+        {
+          "skill": "Skilled Labourer",
+          "quantity": 3,
+          "dates": ["2024-12-20", "2024-12-21", "2024-12-22", "2024-12-23"],
+          "staffedPerDate": { "2024-12-20": 0, "2024-12-21": 0, "2024-12-22": 0, "2024-12-23": 0 },
+          "shiftTimes": {
+            "2024-12-20": { "startTime": "6:00 AM", "endTime": "3:00 PM" },
+            "2024-12-21": { "startTime": "6:00 AM", "endTime": "3:00 PM" },
+            "2024-12-22": { "startTime": "6:00 AM", "endTime": "3:00 PM" },
+            "2024-12-23": { "startTime": "6:00 AM", "endTime": "12:30 PM" }
+          }
+        }
+      ],
+      "shifts": [
+        { "date": "2024-12-20", "staffed": 0, "required": 7 },
+        { "date": "2024-12-21", "staffed": 0, "required": 7 },
+        { "date": "2024-12-22", "staffed": 0, "required": 7 },
+        { "date": "2024-12-23", "staffed": 0, "required": 7 }
+      ]
+    },
+    {
+      "id": 10,
+      "client": "NextGen Logistics",
+      "contactPerson": "Kevin Patel",
+      "phone": "(555) 012-3456",
+      "jobSite": "Western Sydney Distribution Hub",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-16"],
+      "roles": "3 Container Crews (40ft containers)",
+      "description": "Large shipment arrival requiring three crews for efficient unloading at Western Sydney hub.",
+      "status": "unstaffed",
+      "containers": [
+        { 
+          "date": "2024-12-16", 
+          "containerNumber": "NLCU3456789",
+          "size": "40ft",
+          "boxes": 250,
+          "skus": 95,
+          "endCustomer": "Big Box Retailers",
+          "staffed": 0,
+          "required": 4
+        },
+        { 
+          "date": "2024-12-16", 
+          "containerNumber": "NLCU3456790",
+          "size": "40ft",
+          "boxes": 230,
+          "skus": 87,
+          "endCustomer": "Big Box Retailers",
+          "staffed": 0,
+          "required": 4
+        },
+        { 
+          "date": "2024-12-16", 
+          "containerNumber": "NLCU3456791",
+          "size": "40ft",
+          "boxes": 210,
+          "skus": 73,
+          "endCustomer": "Fashion Distributors",
+          "staffed": 0,
+          "required": 3
+        }
+      ]
+    }
+  ],
+  "staffedRequests": [
+    {
+      "id": 101,
+      "client": "Buildcorp",
+      "contactPerson": "Sarah Mitchell",
+      "phone": "(555) 123-4567",
+      "jobSite": "Sydney CBD Tower",
+      "type": "Labour",
+      "dateType": "fixed",
+      "dates": ["2024-12-09", "2024-12-10"],
+      "roles": "4 Workers assigned",
+      "status": "staffed"
+    },
+    {
+      "id": 102,
+      "client": "Metro Logistics",
+      "contactPerson": "David Chen",
+      "phone": "(555) 234-5678",
+      "jobSite": "Port Botany Warehouse",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-08"],
+      "roles": "1 Crew assigned",
+      "status": "staffed"
+    },
+    {
+      "id": 103,
+      "client": "Pacific Construction",
+      "contactPerson": "Jennifer Lee",
+      "phone": "(555) 567-8901",
+      "jobSite": "North Shore Shopping Center",
+      "type": "Labour",
+      "dateType": "fixed",
+      "dates": ["2024-12-06", "2024-12-07"],
+      "roles": "6 Workers assigned",
+      "status": "staffed"
+    },
+    {
+      "id": 104,
+      "client": "Swift Transport",
+      "contactPerson": "Michael Wong",
+      "phone": "(555) 456-7890",
+      "jobSite": "Parramatta Logistics Center",
+      "type": "Container",
+      "dateType": "fixed",
+      "dates": ["2024-12-05"],
+      "roles": "2 Crews assigned",
+      "status": "staffed"
+    }
+  ]
+}
+
+
+
+

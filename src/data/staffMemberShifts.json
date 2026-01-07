@@ -1,0 +1,239 @@
+{
+  "staffMember": {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john.smith@email.com",
+    "phone": "(555) 123-4567"
+  },
+  "shifts": [
+    {
+      "id": 1,
+      "type": "Labour",
+      "supervisorName": "Mike Johnson",
+      "date": "2024-12-19",
+      "startTime": "7:00 AM",
+      "endTime": "4:00 PM",
+      "hoursWorked": null,
+      "containers": null,
+      "jobSite": "Ryde Office Complex",
+      "dailyEntry": {
+        "status": "Not Submitted",
+        "hoursSubmitted": null,
+        "workerNote": null,
+        "supervisorNote": null,
+        "adminNote": null,
+        "editedBy": null
+      }
+    },
+    {
+      "id": 2,
+      "type": "Labour",
+      "supervisorName": "Mike Johnson",
+      "date": "2024-12-18",
+      "startTime": "7:00 AM",
+      "endTime": "4:00 PM",
+      "hoursWorked": 8,
+      "containers": null,
+      "jobSite": "Ryde Office Complex",
+      "dailyEntry": {
+        "status": "Pending Approval",
+        "hoursSubmitted": 8,
+        "workerNote": "Completed all assigned tasks for the day.",
+        "supervisorNote": null,
+        "adminNote": null,
+        "editedBy": null
+      }
+    },
+    {
+      "id": 3,
+      "type": "Container",
+      "supervisorName": "Sarah Mitchell",
+      "date": "2024-12-17",
+      "startTime": "6:00 AM",
+      "endTime": "2:00 PM",
+      "hoursWorked": null,
+      "containers": 3,
+      "jobSite": "Port Botany Warehouse",
+      "dailyEntry": {
+        "status": "Pending Re-approval",
+        "hoursSubmitted": 8,
+        "workerNote": "Unloaded two containers.",
+        "supervisorNote": "Hours adjusted - worker left 30 mins early.",
+        "adminNote": "Adjusted hours from 8 to 7.5 based on supervisor feedback.",
+        "editedBy": "Admin Team"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Labour",
+      "supervisorName": "Tony Russo",
+      "date": "2024-12-16",
+      "startTime": "6:30 AM",
+      "endTime": "3:30 PM",
+      "hoursWorked": 9,
+      "containers": null,
+      "jobSite": "Bondi Beach Residential Project",
+      "dailyEntry": {
+        "status": "Approved",
+        "hoursSubmitted": 9,
+        "workerNote": "Worked overtime to finish framing.",
+        "supervisorNote": "Great work today, approved overtime.",
+        "adminNote": null,
+        "editedBy": null
+      }
+    },
+    {
+      "id": 5,
+      "type": "Labour",
+      "supervisorName": "Tony Russo",
+      "date": "2024-12-15",
+      "startTime": "6:30 AM",
+      "endTime": "3:30 PM",
+      "hoursWorked": 8,
+      "containers": null,
+      "jobSite": "Bondi Beach Residential Project",
+      "dailyEntry": {
+        "status": "Paid",
+        "hoursSubmitted": 8,
+        "workerNote": "Standard day, completed assigned tasks.",
+        "supervisorNote": "All good.",
+        "adminNote": "Included in Dec 15 payroll.",
+        "editedBy": null
+      }
+    },
+    {
+      "id": 6,
+      "type": "Container",
+      "supervisorName": "David Chen",
+      "date": "2024-12-14",
+      "startTime": "8:00 AM",
+      "endTime": "4:00 PM",
+      "hoursWorked": null,
+      "containers": 4,
+      "jobSite": "Alexandria Distribution Center",
+      "dailyEntry": {
+        "status": "Paid",
+        "hoursSubmitted": 8,
+        "workerNote": null,
+        "supervisorNote": "Efficient work on container unloading.",
+        "adminNote": "Included in Dec 15 payroll.",
+        "editedBy": null
+      }
+    },
+    {
+      "id": 7,
+      "type": "Labour",
+      "supervisorName": "Mike Johnson",
+      "date": "2024-12-13",
+      "startTime": "7:00 AM",
+      "endTime": "4:00 PM",
+      "hoursWorked": 8,
+      "containers": null,
+      "jobSite": "Ryde Office Complex",
+      "dailyEntry": {
+        "status": "Paid",
+        "hoursSubmitted": 8,
+        "workerNote": "Finished painting north wing.",
+        "supervisorNote": null,
+        "adminNote": "Included in Dec 15 payroll.",
+        "editedBy": null
+      }
+    },
+    {
+      "id": 8,
+      "type": "Labour",
+      "supervisorName": "Robert Kim",
+      "date": "2024-12-12",
+      "startTime": "6:00 AM",
+      "endTime": "3:00 PM",
+      "hoursWorked": 9,
+      "containers": null,
+      "jobSite": "Chatswood High-Rise",
+      "dailyEntry": {
+        "status": "Approved",
+        "hoursSubmitted": 9,
+        "workerNote": "Extra hour for equipment setup.",
+        "supervisorNote": "Approved - setup took longer than expected.",
+        "adminNote": null,
+        "editedBy": null
+      }
+    },
+    {
+      "id": 9,
+      "type": "Container",
+      "supervisorName": "Mark Anderson",
+      "date": "2024-12-11",
+      "startTime": "5:30 AM",
+      "endTime": "1:30 PM",
+      "hoursWorked": null,
+      "containers": 2,
+      "jobSite": "Sydney Harbour Dock 5",
+      "dailyEntry": {
+        "status": "Paid",
+        "hoursSubmitted": 8,
+        "workerNote": "Early start for dock access window.",
+        "supervisorNote": "Good timing, containers cleared on schedule.",
+        "adminNote": "Included in Dec 15 payroll.",
+        "editedBy": null
+      }
+    },
+    {
+      "id": 10,
+      "type": "Labour",
+      "supervisorName": "Patrick O'Brien",
+      "date": "2024-12-10",
+      "startTime": "5:30 AM",
+      "endTime": "2:30 PM",
+      "hoursWorked": 0,
+      "containers": null,
+      "jobSite": "Manly Wharf Renovation",
+      "dailyEntry": {
+        "status": "Approved",
+        "hoursSubmitted": 0,
+        "workerNote": "Did not work - site was closed due to weather.",
+        "supervisorNote": "Confirmed - site closed for safety.",
+        "adminNote": null,
+        "editedBy": null
+      }
+    },
+    {
+      "id": 11,
+      "type": "Labour",
+      "supervisorName": "Mike Johnson",
+      "date": "2024-12-20",
+      "startTime": "7:00 AM",
+      "endTime": "4:00 PM",
+      "hoursWorked": null,
+      "containers": null,
+      "jobSite": "Ryde Office Complex",
+      "dailyEntry": {
+        "status": "Not Submitted",
+        "hoursSubmitted": null,
+        "workerNote": null,
+        "supervisorNote": null,
+        "adminNote": null,
+        "editedBy": null
+      }
+    },
+    {
+      "id": 12,
+      "type": "Container",
+      "supervisorName": "Kevin Patel",
+      "date": "2024-12-21",
+      "startTime": "7:00 AM",
+      "endTime": "3:00 PM",
+      "hoursWorked": null,
+      "containers": 5,
+      "jobSite": "Western Sydney Distribution Hub",
+      "dailyEntry": {
+        "status": "Not Submitted",
+        "hoursSubmitted": null,
+        "workerNote": null,
+        "supervisorNote": null,
+        "adminNote": null,
+        "editedBy": null
+      }
+    }
+  ]
+}
+
